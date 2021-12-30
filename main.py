@@ -31,3 +31,4 @@ print("Apakah CEO SpaceX pada wikipedia sama dengan api.spacex.land ?")
 print(wikipedia_spacexCEO==api_spacexCEO["data"]["company"]["ceo"])
 
 
+requests.
