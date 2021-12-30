@@ -21,7 +21,6 @@ response=requests.post("https://api.spacex.land/graphql/", json={'query':query})
 print(response.status_code)
 api_spacexCEO=response.json()
 
-
 print("CEO SpaceX menurut Wikipedia",wikipedia_spacexCEO)
 print('CEO SpaceX menurut api.spacex.land/graphql',api_spacexCEO)
 print("Apakah CEO SpaceX pada wikipedia sama dengan api.spacex.land ?")
